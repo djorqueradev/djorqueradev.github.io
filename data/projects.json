@@ -1,7 +1,7 @@
 [
   {
     "title": "HGV Data Logger — IoT telemetry for freight trucks",
-    "subtitle": "From the sensor to the app · CTL UNAB internship",
+    "subtitle": "From the sensor to the app · CTL UNAB, 2026",
     "images": [],
     "tags": [
       "IoT",
@@ -13,9 +13,9 @@
     "gradientFrom": "#1c1917",
     "gradientTo": "#f59e0b",
     "caseStudy": {
-      "description": "Build a working prototype that records telemetry from heavy goods vehicles — CAN bus data and GPS position — and makes it usable for analysis, as my professional internship project at the UNAB Transport & Logistics Center (CTL).",
+      "description": "Build a working prototype that records telemetry from heavy goods vehicles — CAN bus data and GPS position — and makes it usable for analysis. A new project with a new focus on my second stint at the UNAB Transport & Logistics Center (CTL).",
       "execution": "ESP32-S3 firmware that reads a CAN transceiver and a GPS module, logs to microSD, shows status on an OLED display and stays powered through an 18650 UPS. The data feeds a FastAPI fleet web app and a native SwiftUI iOS app (HGVMonitor). I also designed the 3D-printed enclosure in parametric OpenSCAD: a two-level case (14.2 × 13.3 × 4.7 cm) where every component pocket is computed from measured dimensions and checked for collisions with a Python script before printing.",
-      "outcome": "In progress, on a 13-week plan (Sep–Nov 2026) across six phases: research & design, hardware integration, firmware, data & backend, testing and documentation. Alongside it I built a Python application to clean GPS datasets for the CTL.",
+      "outcome": "In progress, on a 13-week plan (Sep–Nov 2026) across six phases: research & design, hardware integration, firmware, data & backend, testing and documentation. Alongside it I built Python tools to clean the CTL's GPS datasets.",
       "details": [
         "ESP32-S3 firmware",
         "CAN bus + GPS",
@@ -29,16 +29,16 @@
     },
     "es": {
       "title": "HGV Data Logger — Telemetría IoT para camiones",
-      "subtitle": "Del sensor a la app · Práctica en el CTL UNAB",
+      "subtitle": "Del sensor a la app · CTL UNAB, 2026",
       "tags": [
         "IoT",
         "Hardware",
         "Full-stack"
       ],
       "caseStudy": {
-        "description": "Construir un prototipo funcional que registre telemetría de vehículos pesados de carga — datos del bus CAN y posición GPS — y la deje lista para análisis, como proyecto de mi práctica profesional en el Centro de Transporte y Logística (CTL) de la UNAB.",
+        "description": "Construir un prototipo funcional que registre telemetría de vehículos pesados de carga — datos del bus CAN y posición GPS — y la deje lista para análisis. Un proyecto nuevo, con otro enfoque, en mi segunda etapa en el Centro de Transporte y Logística (CTL) de la UNAB.",
         "execution": "Firmware para ESP32-S3 que lee un transceptor CAN y un módulo GPS, guarda en microSD, muestra el estado en una pantalla OLED y se mantiene encendido con una UPS 18650. Los datos alimentan una app web de flota en FastAPI y una app nativa iOS en SwiftUI (HGVMonitor). También diseñé la carcasa impresa en 3D en OpenSCAD paramétrico: una caja de dos pisos (14,2 × 13,3 × 4,7 cm) donde cada bolsillo se calcula a partir de las medidas reales de los componentes y se verifica sin choques con un script en Python antes de imprimir.",
-        "outcome": "En desarrollo, con una planificación de 13 semanas (sept–nov 2026) en seis fases: investigación y diseño, integración de hardware, firmware, datos y backend, pruebas y documentación. En paralelo desarrollé una aplicación en Python para limpiar datos GPS del CTL.",
+        "outcome": "En desarrollo, con una planificación de 13 semanas (sept–nov 2026) en seis fases: investigación y diseño, integración de hardware, firmware, datos y backend, pruebas y documentación. En paralelo desarrollé herramientas en Python para limpiar los datos GPS del CTL.",
         "details": [
           "Firmware ESP32-S3",
           "Bus CAN + GPS",

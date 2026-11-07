@@ -33,6 +33,21 @@ export const experience: ExperienceItem[] = [
     ],
   },
   {
+    period: { en: "2026 — Present", es: "2026 — Actualidad" },
+    role: { en: "IoT & Full-Stack Developer — HGV Data Logger", es: "Desarrollador IoT y Full-Stack — Data Logger HGV" },
+    org: "Centro de Transporte y Logística (CTL) — UNAB",
+    points: [
+      {
+        en: "Back at the CTL with a new project: an IoT telemetry prototype for heavy goods vehicles (ESP32-S3, CAN bus, GPS).",
+        es: "De vuelta en el CTL con un nuevo proyecto: un prototipo de telemetría IoT para vehículos pesados de carga (ESP32-S3, bus CAN, GPS).",
+      },
+      {
+        en: "Firmware, FastAPI fleet backend, SwiftUI iOS app and a 3D-printed enclosure designed in OpenSCAD, plus Python tools to clean GPS data.",
+        es: "Firmware, backend de flota en FastAPI, app iOS en SwiftUI y carcasa impresa en 3D diseñada en OpenSCAD, además de herramientas en Python para limpiar datos GPS.",
+      },
+    ],
+  },
+  {
     period: { en: "2023 — Present", es: "2023 — Actualidad" },
     role: { en: "Mentor & Academic Tutor", es: "Mentor y Tutor Académico" },
     org: "Universidad Andrés Bello",
