@@ -119,12 +119,12 @@ export const education: { title: T; org: string; period: T }[] = [
   },
   {
     title: { en: "Student", es: "Estudiante" },
-    org: "CATLEC — Center for Advanced Transportation, Logistics, and Economic Competitiveness",
+    org: "CATLEC (Center for Advanced Transportation, Logistics, and Economic Competitiveness) · Pontificia Universidad Católica de Chile",
     period: { en: "", es: "" },
   },
   {
     title: { en: "Student", es: "Estudiante" },
-    org: "Centro Nacional de Inteligencia Artificial (CENIA)",
+    org: "CENIA (Centro Nacional de Inteligencia Artificial) · Pontificia Universidad Católica de Chile",
     period: { en: "", es: "" },
   },
 ]
