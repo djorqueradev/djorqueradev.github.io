@@ -119,6 +119,11 @@ export const education: { title: T; org: string; period: T }[] = [
   },
   {
     title: { en: "Student", es: "Estudiante" },
+    org: "CATLEC — Center for Advanced Transportation, Logistics, and Economic Competitiveness",
+    period: { en: "", es: "" },
+  },
+  {
+    title: { en: "Student", es: "Estudiante" },
     org: "Centro Nacional de Inteligencia Artificial (CENIA)",
     period: { en: "", es: "" },
   },
